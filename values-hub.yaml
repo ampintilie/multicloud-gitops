@@ -86,7 +86,7 @@ clusterGroup:
         timeout: 234
         # verbosity: "-v"
   managedClusterGroups:
-    managed:
+    cloudManaged:
       name: managed
       acmlabels:
         - name: clusterGroup
