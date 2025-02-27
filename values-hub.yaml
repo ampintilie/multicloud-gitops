@@ -86,11 +86,11 @@ clusterGroup:
         timeout: 234
         # verbosity: "-v"
   managedClusterGroups:
-    exampleRegion:
-      name: group-one
+    cloudManaged:
+      name: managed
       acmlabels:
         - name: clusterGroup
-          value: group-one
+          value: managed
       helmOverrides:
         - name: clusterGroup.isHubCluster
           value: false
